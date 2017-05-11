@@ -1,0 +1,75 @@
+.wrapper{
+  /*background-color: #495867;*/
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+}
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #223843;
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #D9DCD6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #364A54;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+.samplegall{
+  display: inline-block;
+  margin: 2%;
+  margin-left: 3%;
+}
+.boxes{
+  padding: 1%;
+}
+.box{
+  height: 20%;
+  width: 29%;
+  background-color: #223843;
+  display: inline-block;
+  color: white;
+  margin: 1%;
+  text-align: center;
+}
+.bigBox{
+  display: inline-block;
+}
+.textBox{
+  width: 45%;
+  height: 90%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 2%;
+  margin-right: 2%
+}
+p{
+  color: #D9DCD6;
+}
+h1{
+  color: #0E402D;
+}
+h2{
+  color: #D9DCD6;
+}
+.a{
+  display: block;
+  color: #D9DCD6;
+}
